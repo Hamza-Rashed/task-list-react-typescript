@@ -1,0 +1,40 @@
+.panel-block {
+  justify-content: space-between;
+}
+
+.panel-block p {
+  cursor: pointer;
+}
+
+.panel-icon {
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.table tr td:nth-child(2),
+.table tr td:nth-child(3) {
+  width: 100px;
+}
+
+tr.completed {
+  opacity: 0.5;
+}
+
+tr.completed td:first-child {
+  text-decoration: line-through;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  max-width: 300px;
+}
